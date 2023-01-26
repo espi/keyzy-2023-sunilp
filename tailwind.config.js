@@ -13,6 +13,13 @@ module.exports = {
         sans: ['var(--font-outfit)', ...fontFamily.sans],
       },
     },
+    colors: {
+      'navy': '#273043',
+      'honey': '#F39237',
+      'magenta': '#BF1363',
+      'azure': '#OE79B2',
+      'parchment': '#FBFFFl',
+    },
   },
   plugins: [],
 }
