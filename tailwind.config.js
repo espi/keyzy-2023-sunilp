@@ -1,4 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -14,11 +15,18 @@ module.exports = {
       },
     },
     colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      slate: colors.slate,
+      blue: colors.blue,
       'navy': '#273043',
       'honey': '#F39237',
       'magenta': '#BF1363',
-      'azure': '#OE79B2',
-      'parchment': '#FBFFFl',
+      'azure': '#0E79B2',
+      'parchment': '#FBFFF1',
     },
   },
   plugins: [],
